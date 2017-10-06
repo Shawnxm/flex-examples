@@ -3,9 +3,6 @@
 #include <string.h>
 #include "pl0.h"
 
-#define note     0x40000000
-char n[100];
-
 #ifndef LEXERGEN
 void getch() {
     if(cc==ll){
