@@ -45,10 +45,14 @@ void getsym(){
 		getch();
 		if(ch=='*')
 		{
+			getch();
+			i = 0;
 			do{
-				strcat(n,ch);
+				n[i++] = ch;
 				getch();
 			}while(ch != '*');
+			n[i] = '\0';
+			getch();
 			getch();
 		}
 		else if(ch=='/')
@@ -80,7 +84,7 @@ int main(int argc, char *argv[])
 			printf("%ld", num);
 			break;
 		case note:
-			printf("/* %s */", n); break;
+			printf("/*%s*/", n); break;
 		case plus:
 			printf("+"); break;
 		}
