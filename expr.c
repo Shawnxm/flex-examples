@@ -37,7 +37,7 @@ void getsym(){
     } else if (ch=='+') {
     	sym=plus;
 	getch();
-	} else if (ch=='/') { /*...*/ //...
+	} else if (ch=='/') { /*...*/
 		sym = note;
 		getch();
 		if(ch=='*')
