@@ -1,3 +1,6 @@
+# flex-examples
+flex-example for Principles and Techniques of Compilers 
+
 1. Files
 -----------------------------------------------------------------
 README		this file
@@ -23,13 +26,15 @@ Note: we use a macro LEXERGEN to control which getsym() (in above
       lexer is called, otherwise the manually coded getsym() in
       expr.c is called.
        
+4. **pl0** will be needed for compilation. You can download [here](http://staff.ustc.edu.cn/~yuzhang/compiler/2012s/pl0.zip)
+
 
 ========
-Yu Zhang ( yuzhang@ustc.edu.cn )
+Yu Zhang
 School of Computer Science and Technology
 University of Science and Technology of China
 Hefei, Anhui, P.R.China
 
-Revised on Feb.21, 2012
-Created on Feb.18, 2012
+Revised by Xumiao Zhang
+on Oct.7, 2017
 
