@@ -14,13 +14,16 @@
 	     num = atol(yytext);
              return(number);
            }
-[/*(A-Za-z)**/]    /*{ *n = atol(yytext); return(note); }*/
 "+"        {return(plus);}
 [\n]	   {printf("\n"); }	
 [\t ]*     /* throw away whitespace */
-.          { printf("Illegal character"); 
-             return(nul);
-           }
+"/*"([^\*]|(\*)*[^\*/])*(\*)*"*/"
+. 	   {printf("Illegal character");
+	    return(nul);
+	    }
+
+
+
 %%
 void getsym()
 {

@@ -80,8 +80,8 @@ int main(int argc, char *argv[])
 		case number:
 			printf("%ld", num);
 			break;
-		case note:
-			printf("/*%s*/", n); break;
+		//case note:
+			//printf("/*%s*/", n); break;
 		case plus:
 			printf("+"); break;
 		}
