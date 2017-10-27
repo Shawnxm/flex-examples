@@ -4,7 +4,7 @@ flex-example for Principles and Techniques of Compilers
 1. Files  
 
 	|Name           | Description                                                                |
-	| ------------- |:--------------------------------------------------------------------------:|
+	| ------------- |:-------------------------------------------------------------------------- |
 	|README.md 	| this file	                                                             |
 	|Makefile       |a makefile to build the example                                             |
 	|expr.lex       |a flex input file to define simple expressions                              |
